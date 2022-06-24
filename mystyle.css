@@ -1,0 +1,23 @@
+body {
+    background-color:#9cbc2c;
+}
+.border{
+    border: 2pt solid white;
+    background-color:#b9cf6a;
+    width: 450px;
+}
+.title{
+    text-align: inherit;
+    /* text-decoration: solid; */
+    font-size: large;
+    font-family: fantasy;
+}
+img{
+    width: 25px;
+    height: 25;
+    float: left;
+    
+}
+.rowWidth{
+    width: 95px;
+}

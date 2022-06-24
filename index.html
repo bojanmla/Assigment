@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>Checkout Page</title>
+        <link rel="stylesheet" href="mystyle.css">
+        <script src="myscript.js"></script>
+    </head>
+    <body>
+         
+        <label class="title" for="title">Step1: Your details</label>
+        <div class="border">
+            <table>
+                    <tr>
+                        <td class="rowWidth"><label for="name">Name</label></td>
+                        <td><input type="text" id="name" placeholder="First and Last name" onblur="checkName()"></td>
+                        <td><p id="pname"></p></td>
+                    </tr>
+                    <tr>
+                        <td class="rowWidth"><label for="email">Email</label></td>
+                        <td><input type="email"id="email" placeholder="example@domain.com" onblur="checkEmail()"></td>
+                        <td><p id="pemail"></p></td>
+                    </tr>
+                    <tr>
+                        <td class="rowWidth"><label for="phone">Phone</label></td>
+                        <td><input type="number"id="phone" maxlength="9" placeholder="Eg. +447500000"></td>
+                    </tr>
+            </table>
+        </div>
+        <label class="title" for="title">Step2: Delivery Address</label>
+        <div class="border">    
+            <table>       
+                    <tr>
+                        <td class="rowWidth"><label for="address">Address</label></td>
+                        <td><input type="text" id="address"></td>
+                    </tr>
+                    <tr>
+                        <td class="rowWidth"><label for="postcode">Post code</label></td>
+                        <td><input type="number"id="postcode" maxlength="4"></td>
+                    </tr>
+                    <tr>
+                        <td class="rowWidth"><label for="country">Country</label></td>
+                        <td><input type="text" id="country"></td>
+                    </tr>
+            </table>
+        </div>
+        <label class="title" for="title">Step3: Card details</label>
+        <div class="border">   
+            <table>       
+                    
+                    <tr>
+                        <td class="rowWidth"><label for="Cardtype">Card type</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio"id="Cardtype" name="Visa"><label for="Cardtype">Visa</label><img src="visa.jpg" alt="Visa"></td>
+                        <td><input type="radio"id="Cardtype" name="AmEx">AmEx<img src="amex.jpg" alt="AmEx"></td>
+                        <td><input type="radio"id="Cardtype" name="Mastercard">Mastercard<img src="masterCard.png" alt="MasterCard"></td>
+                    </tr>
+                    <tr>
+                        <td class="rowWidth"><label for="Cardnumber">Card number</label></td>
+                        <td><input type="number" id="Cardnumber"></td>
+                    </tr>
+                    <tr>
+                        <td class="rowWidth"><label for="Securitycode">Security code</label></td>
+                        <td><input type="number" maxlength="3" id="Securitycode" ></td>
+                    </tr>
+                    <tr>
+                        <td class="rowWidth"><label for="Nameoncard">Name on Card</label></td>
+                        <td><input type="text" id="Nameoncard" placeholder="Exact name as on card" autocapitalize=""></td>
+                    </tr>
+            </table>
+        </div>
+
+        
+        <button>BUY IT!</button>   
+    
+    </body>
+
+
+
+  
+</html>
