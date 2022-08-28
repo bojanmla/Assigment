@@ -1,6 +1,6 @@
 ---
-name: Login animation
-about: we want animation after succesful login
+name: User Story
+about: The template is for creating user stories
 title: ''
 labels: ''
 assignees: ''
